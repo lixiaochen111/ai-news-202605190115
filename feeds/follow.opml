@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head><title>AI Daily News Feeds</title></head>
+  <body>
+    <outline type="rss" xmlUrl="https://www.theverge.com/rss/index.xml" />
+    <outline type="rss" xmlUrl="https://techcrunch.com/feed/" />
+    <outline type="rss" xmlUrl="https://www.wired.com/feed/rss" />
+  </body>
+</opml>
