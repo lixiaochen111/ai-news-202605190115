@@ -136,7 +136,22 @@ class Tier2Pipeline:
             )
 
             # Parse GLM response
-            classification = json.loads(response["content"])
+            # GLM-4.7-Flash reasoning_content may contain thought process + JSON
+            # Extract JSON part (look for {"is_relevant": ...})
+            content = response["content"]
+
+            # Try to extract JSON from reasoning content
+            try:
+                # First try direct parse
+                classification = json.loads(content)
+            except json.JSONDecodeError:
+                # Look for JSON pattern in the text
+                import re
+                json_match = re.search(r'\{[^}]*"is_relevant"[^}]*\}', content)
+                if json_match:
+                    classification = json.loads(json_match.group(0))
+                else:
+                    raise json.JSONDecodeError("No valid JSON found", content, 0)
 
             # Return classification result
             return classification.get("is_relevant", False)
@@ -146,8 +161,20 @@ class Tier2Pipeline:
             print(f"⚠️  GLM quota exceeded, degrading to skip GLM stage: {e}")
             return None
 
+        except RuntimeError as e:
+            # GLM API errors (including content safety)
+            error_msg = str(e)
+            if "1301" in error_msg or "不安全或敏感内容" in error_msg:
+                # Content safety trigger - skip GLM for this item (return None for degradation)
+                print(f"⚠️  GLM content safety triggered, skipping classification for this item")
+                return None
+            else:
+                # Other API errors
+                print(f"⚠️  GLM API error: {e}")
+                return False
+
         except (json.JSONDecodeError, KeyError, Exception) as e:
-            # Other errors - reject to be safe
+            # JSON parsing or other errors - reject to be safe
             print(f"⚠️  GLM classification error: {e}")
             return False
 
