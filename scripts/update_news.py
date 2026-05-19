@@ -2166,7 +2166,7 @@ def fetch_opml_rss(
                     getattr(parsed, "feed", {}).get("title"),
                     host_of_url(feed_url),
                 )
-                entries = parsed.entries
+                entries = parsed.entries[:50]  # Limit to 50 most recent items per feed
                 for entry in entries:
                     title = str(entry.get("title", "")).strip()
                     link = str(entry.get("link", "")).strip()
@@ -2195,7 +2195,7 @@ def fetch_opml_rss(
                     )
             else:
                 source_name = first_non_empty(feed_title, host_of_url(feed_url))
-                entries = parse_feed_entries_via_xml(resp.content)
+                entries = parse_feed_entries_via_xml(resp.content)[:50]  # Limit to 50 most recent items
                 for entry in entries:
                     published = parse_date_any(entry.get("published"), now)
                     if not published:
