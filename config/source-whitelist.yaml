@@ -105,6 +105,64 @@ tier_0_sources:
 # 流程：抓取 → 跳过关键词 → AI深度分析 → 发布
 
 tier_1_sources:
+  # 主流科技媒体（RSS用户自定义源）
+  - id: the_verge
+    name: "The Verge"
+    patterns:
+      - "theverge.com"
+      - "The Verge"
+    reason: "主流科技媒体，内容广泛，需AI筛选AI+设计相关"
+    update_frequency: "hourly"
+    expected_items_per_day: 50
+    language: "en"
+    ai_filter_focus:
+      - "AI产品"
+      - "设计工具"
+      - "创意应用"
+    exclude_topics:
+      - "纯硬件评测"
+      - "游戏"
+      - "娱乐八卦"
+    max_items_per_day: 50
+
+  - id: techcrunch
+    name: "TechCrunch"
+    patterns:
+      - "techcrunch.com"
+      - "TechCrunch"
+    reason: "创投科技媒体，需筛选AI创业、产品相关"
+    update_frequency: "hourly"
+    expected_items_per_day: 30
+    language: "en"
+    ai_filter_focus:
+      - "AI创业"
+      - "新产品发布"
+      - "设计工具融资"
+    exclude_topics:
+      - "纯金融"
+      - "加密货币"
+      - "政策法规"
+    max_items_per_day: 30
+
+  - id: wired
+    name: "Wired"
+    patterns:
+      - "wired.com"
+      - "Wired"
+    reason: "科技文化媒体，需筛选AI+设计深度报道"
+    update_frequency: "daily"
+    expected_items_per_day: 20
+    language: "en"
+    ai_filter_focus:
+      - "AI应用"
+      - "设计趋势"
+      - "创意科技"
+    exclude_topics:
+      - "纯政治"
+      - "安全政策"
+      - "科学理论"
+    max_items_per_day: 20
+
   # 中文设计社区
   - id: uisdc
     name: "优设网"
