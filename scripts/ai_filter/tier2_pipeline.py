@@ -137,21 +137,51 @@ class Tier2Pipeline:
 
             # Parse GLM response
             # GLM-4.7-Flash reasoning_content may contain thought process + JSON
-            # Extract JSON part (look for {"is_relevant": ...})
             content = response["content"]
 
-            # Try to extract JSON from reasoning content
+            # Try multiple JSON extraction strategies
+            import re
+            classification = None
+
+            # Strategy 1: Direct JSON parse (content is pure JSON)
             try:
-                # First try direct parse
                 classification = json.loads(content)
             except json.JSONDecodeError:
-                # Look for JSON pattern in the text
-                import re
-                json_match = re.search(r'\{[^}]*"is_relevant"[^}]*\}', content)
+                pass
+
+            # Strategy 2: Find JSON object with "is_relevant" (greedy match)
+            if not classification:
+                json_match = re.search(r'\{[^{}]*"is_relevant"[^{}]*\}', content, re.DOTALL)
                 if json_match:
-                    classification = json.loads(json_match.group(0))
-                else:
-                    raise json.JSONDecodeError("No valid JSON found", content, 0)
+                    try:
+                        classification = json.loads(json_match.group(0))
+                    except json.JSONDecodeError:
+                        pass
+
+            # Strategy 3: Find last JSON-like block
+            if not classification:
+                # Look for all JSON-like blocks and try the last one
+                json_blocks = re.findall(r'\{[^{}]+\}', content, re.DOTALL)
+                for block in reversed(json_blocks):
+                    try:
+                        test_obj = json.loads(block)
+                        if "is_relevant" in test_obj:
+                            classification = test_obj
+                            break
+                    except json.JSONDecodeError:
+                        continue
+
+            # Strategy 4: Look for key-value pattern
+            if not classification:
+                # Try to find: "is_relevant": true/false
+                match = re.search(r'"is_relevant"\s*:\s*(true|false)', content, re.IGNORECASE)
+                if match:
+                    classification = {"is_relevant": match.group(1).lower() == "true"}
+
+            if not classification:
+                # Still can't parse - log and reject
+                print(f"⚠️  GLM response unparseable, content preview: {content[:100]}...")
+                return False
 
             # Return classification result
             return classification.get("is_relevant", False)
@@ -162,16 +192,27 @@ class Tier2Pipeline:
             return None
 
         except RuntimeError as e:
-            # GLM API errors (including content safety)
+            # GLM API errors
             error_msg = str(e)
+
+            # Content safety errors - skip item
             if "1301" in error_msg or "不安全或敏感内容" in error_msg:
-                # Content safety trigger - skip GLM for this item (return None for degradation)
-                print(f"⚠️  GLM content safety triggered, skipping classification for this item")
+                print(f"⚠️  GLM content safety triggered, skipping item")
                 return None
-            else:
-                # Other API errors
-                print(f"⚠️  GLM API error: {e}")
-                return False
+
+            # Network errors (1234) - degrade
+            if "1234" in error_msg or "网络错误" in error_msg:
+                print(f"⚠️  GLM network error, degrading")
+                return None
+
+            # Connection errors - degrade
+            if "Connection error" in error_msg:
+                print(f"⚠️  GLM connection error, degrading")
+                return None
+
+            # Other API errors - reject
+            print(f"⚠️  GLM API error: {e}")
+            return False
 
         except (json.JSONDecodeError, KeyError, Exception) as e:
             # JSON parsing or other errors - reject to be safe
