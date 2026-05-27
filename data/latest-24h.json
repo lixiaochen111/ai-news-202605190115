@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-26T15:42:56.687402Z",
+  "generated_at": "2026-05-27T04:09:16.025845Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_ai_raw": 1,
-  "total_items_raw": 3611,
-  "total_items_all_mode": 3392,
+  "total_items": 0,
+  "total_items_ai_raw": 0,
+  "total_items_raw": 3834,
+  "total_items_all_mode": 3579,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 1,
-    "tier_0": 1,
+    "total": 0,
+    "tier_0": 0,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 3611,
-    "items_after_filter": 1,
+    "items_before_filter": 3834,
+    "items_after_filter": 0,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 33086,
+  "archive_total": 35053,
   "site_count": 14,
-  "source_count": 1,
+  "source_count": 0,
   "site_stats": [
     {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 1,
-      "raw_count": 782
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "count": 0,
+      "raw_count": 108
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 1690
+      "raw_count": 1724
     },
     {
       "site_id": "aibase",
@@ -43,49 +43,49 @@
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 590
+      "raw_count": 602
     },
     {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 42
-    },
-    {
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "count": 0,
-      "raw_count": 119
+      "raw_count": 868
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 21
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 74
+      "raw_count": 30
     },
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "count": 0,
-      "raw_count": 241
+      "raw_count": 315
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 80
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 58
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 1
+      "raw_count": 7
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 14
+      "raw_count": 5
     },
     {
       "site_id": "aibreakfast",
@@ -106,69 +106,7 @@
       "raw_count": 0
     }
   ],
-  "items": [
-    {
-      "id": "57efaeaaea5de04cb9fe782eb7cea4d9b04f9c13",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "community.obsidian.md",
-      "title": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
-      "url": "https://community.obsidian.md/plugins/gcal-sidebar",
-      "published_at": "2026-05-25T20:30:51.732000Z",
-      "first_seen_at": "2026-05-26T03:55:26.521074Z",
-      "last_seen_at": "2026-05-26T03:55:26.521074Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
-      "title_en": null,
-      "title_zh": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
-      "title_bilingual": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件"
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "57efaeaaea5de04cb9fe782eb7cea4d9b04f9c13",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "community.obsidian.md",
-      "title": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
-      "url": "https://community.obsidian.md/plugins/gcal-sidebar",
-      "published_at": "2026-05-25T20:30:51.732000Z",
-      "first_seen_at": "2026-05-26T03:55:26.521074Z",
-      "last_seen_at": "2026-05-26T03:55:26.521074Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
-      "title_en": null,
-      "title_zh": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
-      "title_bilingual": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件"
-    }
-  ],
+  "items": [],
+  "items_ai": [],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
