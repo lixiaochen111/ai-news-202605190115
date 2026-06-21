@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-20T14:11:11.139218Z",
+  "generated_at": "2026-06-21T04:42:53.295962Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 216,
-      "duration_ms": 6139,
+      "item_count": 197,
+      "duration_ms": 5886,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 251,
+      "duration_ms": 229,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 24,
-      "duration_ms": 121,
+      "duration_ms": 394,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 467,
+      "duration_ms": 525,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 696,
+      "duration_ms": 360,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 419,
-      "duration_ms": 16732,
+      "item_count": 382,
+      "duration_ms": 15107,
       "error": null
     },
     {
@@ -54,31 +54,31 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 842,
+      "duration_ms": 1578,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3027,
-      "duration_ms": 1655,
+      "item_count": 3022,
+      "duration_ms": 1359,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 44,
-      "duration_ms": 477,
+      "item_count": 78,
+      "duration_ms": 489,
       "error": null
     },
     {
       "site_id": "aihubtoday",
       "site_name": "AI HubToday",
       "ok": true,
-      "item_count": 10,
-      "duration_ms": 285,
+      "item_count": 1,
+      "duration_ms": 188,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1794,
+      "duration_ms": 1367,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 5459,
+      "duration_ms": 2492,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 147,
-      "duration_ms": 613,
+      "duration_ms": 440,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 80,
-      "duration_ms": 430,
+      "duration_ms": 417,
       "error": null,
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -124,8 +124,8 @@
   "successful_sites": 14,
   "failed_sites": [],
   "zero_item_sites": [],
-  "fetched_raw_items": 5196,
-  "items_before_topic_filter": 3928,
+  "fetched_raw_items": 5160,
+  "items_before_topic_filter": 2873,
   "items_in_24h": 0,
   "rss_opml": {
     "enabled": true,
@@ -146,7 +146,7 @@
         "effective_feed_url": "https://techcrunch.com/feed/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 64,
+        "duration_ms": 82,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -161,7 +161,7 @@
         "effective_feed_url": "https://www.theverge.com/rss/index.xml",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 192,
+        "duration_ms": 216,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -176,7 +176,7 @@
         "effective_feed_url": "https://www.wired.com/feed/rss",
         "ok": true,
         "item_count": 50,
-        "duration_ms": 174,
+        "duration_ms": 119,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -205,6 +205,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-06-20"
+    "generated_date_utc": "2026-06-21"
   }
 }
