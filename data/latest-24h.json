@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-28T04:09:40.702185Z",
+  "generated_at": "2026-06-28T13:54:08.448387Z",
   "window_hours": 24,
   "total_items": 0,
   "total_items_ai_raw": 0,
-  "total_items_raw": 3018,
-  "total_items_all_mode": 2822,
+  "total_items_raw": 2980,
+  "total_items_all_mode": 2812,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
@@ -13,11 +13,11 @@
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 3018,
+    "items_before_filter": 2980,
     "items_after_filter": 0,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 83222,
+  "archive_total": 83173,
   "site_count": 14,
   "source_count": 0,
   "site_stats": [
@@ -25,7 +25,7 @@
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 1501
+      "raw_count": 1477
     },
     {
       "site_id": "aihubtoday",
@@ -37,19 +37,19 @@
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 461
+      "raw_count": 452
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 673
+      "raw_count": 670
     },
     {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
       "count": 0,
-      "raw_count": 9
+      "raw_count": 183
     },
     {
       "site_id": "newsnow",
@@ -58,16 +58,10 @@
       "raw_count": 92
     },
     {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 202
-    },
-    {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 56
+      "raw_count": 55
     },
     {
       "site_id": "opmlrss",
@@ -79,7 +73,13 @@
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 2
+      "raw_count": 23
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 6
     },
     {
       "site_id": "official_ai",
