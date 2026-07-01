@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-01T04:12:55.548866Z",
+  "generated_at": "2026-07-01T14:43:39.110658Z",
   "window_hours": 24,
   "total_items": 1,
   "total_items_ai_raw": 1,
-  "total_items_raw": 3847,
-  "total_items_all_mode": 3601,
+  "total_items_raw": 3945,
+  "total_items_all_mode": 3654,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
@@ -13,11 +13,11 @@
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 3847,
+    "items_before_filter": 3945,
     "items_after_filter": 1,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 80887,
+  "archive_total": 82706,
   "site_count": 14,
   "source_count": 1,
   "site_stats": [
@@ -25,13 +25,19 @@
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 1,
-      "raw_count": 14
+      "raw_count": 8
+    },
+    {
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "count": 0,
+      "raw_count": 548
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 1783
+      "raw_count": 1817
     },
     {
       "site_id": "aibase",
@@ -46,40 +52,22 @@
       "raw_count": 2
     },
     {
-      "site_id": "iris",
-      "site_name": "Info Flow",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 538
+      "raw_count": 929
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 85
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 0,
-      "raw_count": 935
-    },
-    {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 0,
-      "raw_count": 23
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 310
+      "raw_count": 86
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 46
+      "raw_count": 68
     },
     {
       "site_id": "zeli",
@@ -88,16 +76,28 @@
       "raw_count": 78
     },
     {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 318
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 22
+    },
+    {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 1
+      "raw_count": 36
     },
     {
       "site_id": "aibreakfast",
       "site_name": "AI Breakfast",
       "count": 0,
-      "raw_count": 0
+      "raw_count": 1
     },
     {
       "site_id": "bestblogs",
@@ -116,7 +116,7 @@
       "url": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
       "published_at": "2026-06-30T16:36:06Z",
       "first_seen_at": "2026-07-01T04:12:55.548866Z",
-      "last_seen_at": "2026-07-01T04:12:55.548866Z",
+      "last_seen_at": "2026-07-01T14:43:39.110658Z",
       "_tier": 0,
       "_source_config": {
         "id": "sidebar",
@@ -148,7 +148,7 @@
       "url": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
       "published_at": "2026-06-30T16:36:06Z",
       "first_seen_at": "2026-07-01T04:12:55.548866Z",
-      "last_seen_at": "2026-07-01T04:12:55.548866Z",
+      "last_seen_at": "2026-07-01T14:43:39.110658Z",
       "_tier": 0,
       "_source_config": {
         "id": "sidebar",
