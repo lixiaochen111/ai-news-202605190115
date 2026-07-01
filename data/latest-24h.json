@@ -1,97 +1,97 @@
 {
-  "generated_at": "2026-06-30T14:29:46.053306Z",
+  "generated_at": "2026-07-01T04:12:55.548866Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_ai_raw": 0,
-  "total_items_raw": 4724,
-  "total_items_all_mode": 4433,
+  "total_items": 1,
+  "total_items_ai_raw": 1,
+  "total_items_raw": 3847,
+  "total_items_all_mode": 3601,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 0,
-    "tier_0": 0,
+    "total": 1,
+    "tier_0": 1,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 4724,
-    "items_after_filter": 0,
+    "items_before_filter": 3847,
+    "items_after_filter": 1,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 82840,
+  "archive_total": 80887,
   "site_count": 14,
-  "source_count": 0,
+  "source_count": 1,
   "site_stats": [
     {
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "count": 0,
-      "raw_count": 151
+      "site_id": "official_ai",
+      "site_name": "Official AI Updates",
+      "count": 1,
+      "raw_count": 14
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 2431
+      "raw_count": 1783
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 44
+      "raw_count": 32
     },
     {
       "site_id": "aihubtoday",
       "site_name": "AI HubToday",
       "count": 0,
-      "raw_count": 3
+      "raw_count": 2
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 565
+      "raw_count": 538
+    },
+    {
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "count": 0,
+      "raw_count": 85
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 1062
-    },
-    {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "count": 0,
-      "raw_count": 45
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 303
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 67
+      "raw_count": 935
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 16
+      "raw_count": 23
     },
     {
-      "site_id": "official_ai",
-      "site_name": "Official AI Updates",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
       "count": 0,
-      "raw_count": 6
+      "raw_count": 310
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 46
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 78
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 31
+      "raw_count": 1
     },
     {
       "site_id": "aibreakfast",
@@ -106,7 +106,69 @@
       "raw_count": 0
     }
   ],
-  "items": [],
-  "items_ai": [],
+  "items": [
+    {
+      "id": "39e34106d05e9da40ed4faa72f00a9e157a73e2b",
+      "site_id": "official_ai",
+      "site_name": "Official AI Updates",
+      "source": "GitHub Changelog",
+      "title": "Releases: Sidebar navigation and per-asset download counts",
+      "url": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
+      "published_at": "2026-06-30T16:36:06Z",
+      "first_seen_at": "2026-07-01T04:12:55.548866Z",
+      "last_seen_at": "2026-07-01T04:12:55.548866Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Releases: Sidebar navigation and per-asset download counts",
+      "title_en": "Releases: Sidebar navigation and per-asset download counts",
+      "title_zh": "发布：侧边栏导航和每个资产的下载计数",
+      "title_bilingual": "发布：侧边栏导航和每个资产的下载计数 / Releases: Sidebar navigation and per-asset download counts"
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "39e34106d05e9da40ed4faa72f00a9e157a73e2b",
+      "site_id": "official_ai",
+      "site_name": "Official AI Updates",
+      "source": "GitHub Changelog",
+      "title": "Releases: Sidebar navigation and per-asset download counts",
+      "url": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
+      "published_at": "2026-06-30T16:36:06Z",
+      "first_seen_at": "2026-07-01T04:12:55.548866Z",
+      "last_seen_at": "2026-07-01T04:12:55.548866Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Releases: Sidebar navigation and per-asset download counts",
+      "title_en": "Releases: Sidebar navigation and per-asset download counts",
+      "title_zh": "发布：侧边栏导航和每个资产的下载计数",
+      "title_bilingual": "发布：侧边栏导航和每个资产的下载计数 / Releases: Sidebar navigation and per-asset download counts"
+    }
+  ],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
