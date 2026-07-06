@@ -1,45 +1,75 @@
 {
-  "generated_at": "2026-07-05T13:47:04.914963Z",
+  "generated_at": "2026-07-06T03:53:44.664214Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
-  "latest_date": "2026-07-04",
+  "latest_date": "2026-07-05",
   "count_today": 6,
   "updates_today": [
     {
-      "date": "2026-07-04",
-      "title": "未来硅世界第18期邀请到了前微软、字节资深工程师分享了很多可直接落地的独立开发经验。这次直播不仅给出Claude Code与Codex互补互审的高效工作流，还顺带分享了低成本 VPS 服务、高效信息筛选路线。",
+      "date": "2026-07-05",
+      "title": "正在搭建团队、筹备AI赛道创业的管理者，这场与深度参与过字节、美团组织建设的人力负责人的访谈可以补齐组织管理与人才招聘的核心认知。不仅有轻量化创业管理、人才筛选谈判落地方法，还剖析了AI重构岗位分工带来的组织变革。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
-      "date": "2026-07-04",
-      "title": "曾任职于OpenAI、Google等多家头部AI企业的作者结合大厂求职与创业经历，给出了智能体时代专属职业成长路线。文章中围绕稀缺资源投入、问题发掘、选择高难度赛道、打磨落地细节、平衡机会与转化、低成本入局研究六大维度分享了实操思路。",
+      "date": "2026-07-05",
+      "title": "正在做前端开发、依赖AI编程工具的开发者，不容错过这款开源工具。Meta 把自家用了整整8年的设计系统Astryx 给开源了。它支撑过 Facebook、Instagram、Threads 等超过13000个应用的界面开发，见过各种复杂场景，踩过无数坑，然后被一点点打磨到现在这个状态。快来试试！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
-      "date": "2026-07-04",
-      "title": "很多人最近的焦虑很具体：代码已经能让 Agent 写，图片已经能用模型生成，会议纪要、客服、搜索、调研都在被自动化。下一个被重写的，会不会就是自己的岗位？Richard Socher 在这期里给了一个很硬的判断：问题不能只看 AI 能不能做你的任务，还要看这个任务变便宜后，市场到底需要多少。",
+      "date": "2026-07-05",
+      "title": "如果你在使用Codex搭载GPT5.5 Pro模型处理复杂推理过程中频繁遭遇AI降智，梦飞这篇实操指南可以帮你快速解决。文中附带检测脚本，还给出了完整配置修改流程，快来一起检测下。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
-      "date": "2026-07-04",
-      "title": "大多数人每天都在使用ChatGPT和Claude，却完全不知道它们究竟是怎么构建出来的。只有一小部分人理解那个精确的流程：它如何把原始互联网文本变成一个能够写作、推理和编程的模型。一旦理解这个流程，你也能从零构建自己的 LLM。",
+      "date": "2026-07-05",
+      "title": "不少开发者用 Codex 产出大量半成品项目，因为缺少版本管理反复重做白白浪费精力。芋头小宝这套零基础GitHub实操方案完美解决了项目杂乱丢失的问题。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
-      "date": "2026-07-04",
-      "title": "一转眼2026年已经进入下半年，阿真这篇文章盘点了2026 年上半年的图片与视频模型，伴随模型更新时间轴出现的，还有一些当时的测试文章。一起来回顾下！",
+      "date": "2026-07-05",
+      "title": "baoyu-design skill 更新： 支持 PPT 动画了。之前有很多朋友用这个 Skill 做 PPT 了，有人问能不能支持 PPT 动画，但当前这个skill生成的是 HTML 格式的 PPT，然后借助 PptxGenJS 导出为 PPTX，这个库有个局限就是不支持 PPT 的动画。之前借助 Opus 4.8 确实没搞定，但Fable 5对于 PPTX 的 XML 格式了如指掌，迭代了几轮就搞定了。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
-      "date": "2026-07-04",
-      "title": "AI时代，Markdown已经成为AI的第一语言。但是各类Markdown工具要么收费、要么存在云端泄露数据等等问题。冷逸做了一个Markdown编辑器，开源免费，快来上手体验一下！",
+      "date": "2026-07-05",
+      "title": "Pincus 是 Zynga 创始人，也经历过 Web、社交网络、移动游戏三轮计算平台变化。他的新书《Life at the Speed of Play》总结的是一套产品和创始人打法。今天的 PM、创业者和 AI 产品团队读这期，最有用的部分，是一个冷门命题被讲清楚了：当投资人都在看企业 AI，消费产品团队应该怎样判断时机、设计新产品、撑过没有共识的早期。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 31,
+  "count_7d": 32,
   "updates_7d": [
+    {
+      "date": "2026-07-05",
+      "title": "正在搭建团队、筹备AI赛道创业的管理者，这场与深度参与过字节、美团组织建设的人力负责人的访谈可以补齐组织管理与人才招聘的核心认知。不仅有轻量化创业管理、人才筛选谈判落地方法，还剖析了AI重构岗位分工带来的组织变革。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-07-05",
+      "title": "正在做前端开发、依赖AI编程工具的开发者，不容错过这款开源工具。Meta 把自家用了整整8年的设计系统Astryx 给开源了。它支撑过 Facebook、Instagram、Threads 等超过13000个应用的界面开发，见过各种复杂场景，踩过无数坑，然后被一点点打磨到现在这个状态。快来试试！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-07-05",
+      "title": "如果你在使用Codex搭载GPT5.5 Pro模型处理复杂推理过程中频繁遭遇AI降智，梦飞这篇实操指南可以帮你快速解决。文中附带检测脚本，还给出了完整配置修改流程，快来一起检测下。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-07-05",
+      "title": "不少开发者用 Codex 产出大量半成品项目，因为缺少版本管理反复重做白白浪费精力。芋头小宝这套零基础GitHub实操方案完美解决了项目杂乱丢失的问题。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-07-05",
+      "title": "baoyu-design skill 更新： 支持 PPT 动画了。之前有很多朋友用这个 Skill 做 PPT 了，有人问能不能支持 PPT 动画，但当前这个skill生成的是 HTML 格式的 PPT，然后借助 PptxGenJS 导出为 PPTX，这个库有个局限就是不支持 PPT 的动画。之前借助 Opus 4.8 确实没搞定，但Fable 5对于 PPTX 的 XML 格式了如指掌，迭代了几轮就搞定了。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Pincus 是 Zynga 创始人，也经历过 Web、社交网络、移动游戏三轮计算平台变化。他的新书《Life at the Speed of Play》总结的是一套产品和创始人打法。今天的 PM、创业者和 AI 产品团队读这期，最有用的部分，是一个冷门命题被讲清楚了：当投资人都在看企业 AI，消费产品团队应该怎样判断时机、设计新产品、撑过没有共识的早期。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-07-04",
       "title": "未来硅世界第18期邀请到了前微软、字节资深工程师分享了很多可直接落地的独立开发经验。这次直播不仅给出Claude Code与Codex互补互审的高效工作流，还顺带分享了低成本 VPS 服务、高效信息筛选路线。",
@@ -168,31 +198,6 @@
     {
       "date": "2026-06-30",
       "title": "6月海内外重磅开源各类大模型，覆盖代码、多模态、视频、语音、科学、手机智能体等全赛道。智谱GLM-5.2、Kimi-K2.7-Code等国产编码模型实力突出，谷歌、字节、百度、小米等大厂接连放出音视频、OCR、终端智能体新品，还有面向生物、材料的专业科研模型落地。一起来看看具体都有哪些！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "本周AI音乐行业周报汇集了近期重磅版权纠纷、工具更新与前沿论文。Suno、Udio、英伟达接连卷入大规模侵权诉讼，配套法庭级检测工具、防伪造隐形水印也随之落地补齐维权手段。国内外音频工具迎来集中更新。文末还附上了八篇前沿论文，覆盖统一音频架构、实时交互编曲、音源修复等方向。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "卡尔自研的开源macOS工具Bugu，可以解决长时间Vibe Coding状况下任务状态不明、电脑休眠等等问题。依托分层音效反馈，不用开盖就能分辨任务的各类运行状态，同时一键锁住设备不休眠。文中还有浏览器自动化调研、多技能组合等实用开发技巧，快来看看！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "作者结合多款产品落地经验，提炼出一套完整Vibe Coding流程，覆盖需求拆解、快速出最简原型、可控迭代、多层验收、云端部署、线上反馈迭代六大环节，附带版本存档、上下文压缩、双AI互审、域名与环境变量配置等大量避坑实操。想独立落地产品的零基础小白也能直接复用，快上手试试！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "Codex的核心能力本来是为写代码设计的，但这套能力——从多个地方拉信息、调用各种工具、一步步执行复杂任务——用来办公同样好使。这篇指南教你怎么用Codex来处理日常工作。 从搭环境开始，到实际跑各种工作流，再到把重复劳动变成越来越顺手的系统。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "Andrew Ambrosino是Codex的产品与工程负责人。他的履历很特殊：做过设计师、工程师、PM，也做过创始人。如果你今天还在纠结该写 PRD、画原型，还是直接让 Agent 开工，这期对话或许会给你帮助！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
