@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-24T02:53:34.997896Z",
+  "generated_at": "2026-07-24T13:50:43.268416Z",
   "window_hours": 24,
   "total_items": 1,
   "total_items_ai_raw": 1,
-  "total_items_raw": 4735,
-  "total_items_all_mode": 4310,
+  "total_items_raw": 4612,
+  "total_items_all_mode": 4208,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
@@ -13,11 +13,11 @@
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 4735,
+    "items_before_filter": 4612,
     "items_after_filter": 1,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 80623,
+  "archive_total": 80770,
   "site_count": 14,
   "source_count": 1,
   "site_stats": [
@@ -25,19 +25,19 @@
       "site_id": "techurls",
       "site_name": "TechURLs",
       "count": 1,
-      "raw_count": 329
+      "raw_count": 314
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 2594
+      "raw_count": 2547
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 51
+      "raw_count": 48
     },
     {
       "site_id": "aihubtoday",
@@ -49,49 +49,49 @@
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 529
-    },
-    {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 0,
-      "raw_count": 16
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 0,
-      "raw_count": 944
-    },
-    {
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "count": 0,
-      "raw_count": 124
+      "raw_count": 508
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 57
+      "raw_count": 52
+    },
+    {
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "count": 0,
+      "raw_count": 147
+    },
+    {
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 0,
+      "raw_count": 860
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 74
+      "raw_count": 84
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 17
+    },
+    {
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
+      "count": 0,
+      "raw_count": 27
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
       "raw_count": 5
-    },
-    {
-      "site_id": "followbuilders",
-      "site_name": "Follow Builders",
-      "count": 0,
-      "raw_count": 9
     },
     {
       "site_id": "aibreakfast",
@@ -116,7 +116,7 @@
       "url": "https://www.androidpolice.com/i-replaced-my-pixels-built-in-tools-with-this-one-sidebar-app",
       "published_at": "2026-07-23T15:15:15Z",
       "first_seen_at": "2026-07-24T02:53:34.997896Z",
-      "last_seen_at": "2026-07-24T02:53:34.997896Z",
+      "last_seen_at": "2026-07-24T13:50:43.268416Z",
       "_tier": 0,
       "_source_config": {
         "id": "sidebar",
@@ -148,7 +148,7 @@
       "url": "https://www.androidpolice.com/i-replaced-my-pixels-built-in-tools-with-this-one-sidebar-app",
       "published_at": "2026-07-23T15:15:15Z",
       "first_seen_at": "2026-07-24T02:53:34.997896Z",
-      "last_seen_at": "2026-07-24T02:53:34.997896Z",
+      "last_seen_at": "2026-07-24T13:50:43.268416Z",
       "_tier": 0,
       "_source_config": {
         "id": "sidebar",
