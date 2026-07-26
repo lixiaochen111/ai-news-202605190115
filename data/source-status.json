@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-26T03:18:49.249827Z",
+  "generated_at": "2026-07-26T13:35:56.453530Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
       "item_count": 164,
-      "duration_ms": 2971,
+      "duration_ms": 2920,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 8,
-      "duration_ms": 276,
+      "duration_ms": 242,
       "error": null
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 50,
-      "duration_ms": 83,
+      "item_count": 35,
+      "duration_ms": 60,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 401,
+      "duration_ms": 527,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 465,
+      "duration_ms": 435,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 357,
-      "duration_ms": 12914,
+      "item_count": 383,
+      "duration_ms": 18132,
       "error": null
     },
     {
@@ -54,39 +54,39 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1855,
+      "duration_ms": 1540,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3036,
-      "duration_ms": 1428,
+      "item_count": 3034,
+      "duration_ms": 2141,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 71,
-      "duration_ms": 581,
+      "item_count": 78,
+      "duration_ms": 494,
       "error": null
     },
     {
       "site_id": "aihubtoday",
       "site_name": "AI HubToday",
-      "ok": true,
-      "item_count": 1,
-      "duration_ms": 169,
-      "error": null
+      "ok": false,
+      "item_count": 0,
+      "duration_ms": 125373,
+      "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ai.hubtoday.app', port=443) at 0x7fda32a51990>, 'Connection to ai.hubtoday.app timed out. (connect timeout=30)'))"
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 2281,
+      "duration_ms": 1091,
       "error": null
     },
     {
@@ -94,15 +94,15 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 551,
+      "duration_ms": 423,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 128,
-      "duration_ms": 1952,
+      "item_count": 127,
+      "duration_ms": 1082,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 80,
-      "duration_ms": 398,
+      "duration_ms": 318,
       "error": null,
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -121,11 +121,13 @@
       "replaced_feed_count": 0
     }
   ],
-  "successful_sites": 14,
-  "failed_sites": [],
+  "successful_sites": 13,
+  "failed_sites": [
+    "aihubtoday"
+  ],
   "zero_item_sites": [],
-  "fetched_raw_items": 5115,
-  "items_before_topic_filter": 2980,
+  "fetched_raw_items": 5129,
+  "items_before_topic_filter": 3685,
   "items_in_24h": 0,
   "rss_opml": {
     "enabled": true,
@@ -146,7 +148,7 @@
         "effective_feed_url": "https://techcrunch.com/feed/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 78,
+        "duration_ms": 144,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -161,7 +163,7 @@
         "effective_feed_url": "https://www.theverge.com/rss/index.xml",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 169,
+        "duration_ms": 70,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -176,7 +178,7 @@
         "effective_feed_url": "https://www.wired.com/feed/rss",
         "ok": true,
         "item_count": 50,
-        "duration_ms": 151,
+        "duration_ms": 104,
         "error": null,
         "skipped": false,
         "skip_reason": null,
