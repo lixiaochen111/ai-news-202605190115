@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-30T02:37:21.421015Z",
+  "generated_at": "2026-07-30T14:09:08.903803Z",
   "window_hours": 24,
   "total_items": 0,
   "total_items_ai_raw": 0,
-  "total_items_raw": 4661,
-  "total_items_all_mode": 4255,
+  "total_items_raw": 4673,
+  "total_items_all_mode": 4270,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
@@ -13,11 +13,11 @@
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 4661,
+    "items_before_filter": 4673,
     "items_after_filter": 0,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 80777,
+  "archive_total": 80908,
   "site_count": 14,
   "source_count": 0,
   "site_stats": [
@@ -31,13 +31,13 @@
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 2490
+      "raw_count": 2549
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 46
+      "raw_count": 40
     },
     {
       "site_id": "aihubtoday",
@@ -49,25 +49,31 @@
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 609
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 0,
-      "raw_count": 900
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 348
+      "raw_count": 565
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 66
+      "raw_count": 62
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 354
+    },
+    {
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 0,
+      "raw_count": 877
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 80
     },
     {
       "site_id": "aihot",
@@ -76,22 +82,16 @@
       "raw_count": 15
     },
     {
-      "site_id": "zeli",
-      "site_name": "Zeli",
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 78
+      "raw_count": 32
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 6
-    },
-    {
-      "site_id": "followbuilders",
-      "site_name": "Follow Builders",
-      "count": 0,
-      "raw_count": 7
+      "raw_count": 3
     },
     {
       "site_id": "aibreakfast",
