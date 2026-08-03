@@ -1,79 +1,85 @@
 {
-  "generated_at": "2026-08-02T13:27:45.190909Z",
+  "generated_at": "2026-08-03T03:19:15.780555Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_ai_raw": 1,
-  "total_items_raw": 2921,
-  "total_items_all_mode": 2678,
+  "total_items": 0,
+  "total_items_ai_raw": 0,
+  "total_items_raw": 3019,
+  "total_items_all_mode": 2772,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 1,
-    "tier_0": 1,
+    "total": 0,
+    "tier_0": 0,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 2921,
-    "items_after_filter": 1,
+    "items_before_filter": 3019,
+    "items_after_filter": 0,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 79000,
+  "archive_total": 80690,
   "site_count": 14,
-  "source_count": 1,
+  "source_count": 0,
   "site_stats": [
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 1,
-      "raw_count": 170
-    },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 95
-    },
-    {
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "count": 0,
-      "raw_count": 1471
+      "raw_count": 101
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 405
+      "raw_count": 439
+    },
+    {
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "count": 0,
+      "raw_count": 1517
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 12
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 645
-    },
-    {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "count": 0,
-      "raw_count": 26
+      "raw_count": 668
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 79
+      "raw_count": 80
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 176
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 2
+      "raw_count": 4
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 20
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 28
+      "raw_count": 2
     },
     {
       "site_id": "official_ai",
@@ -98,77 +104,9 @@
       "site_name": "AI HubToday",
       "count": 0,
       "raw_count": 0
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 0
     }
   ],
-  "items": [
-    {
-      "id": "71927316d08e5c5dc2e3a4b12327e2fa0ce1bb29",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Android Police",
-      "title": "I can't use Chrome without Gemini's Sidebar anymore",
-      "url": "https://www.androidpolice.com/ask-gemini-chrome-sidebar",
-      "published_at": "2026-08-01T17:00:15Z",
-      "first_seen_at": "2026-08-02T03:17:20.466911Z",
-      "last_seen_at": "2026-08-02T13:27:45.190909Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "I can't use Chrome without Gemini's Sidebar anymore",
-      "title_en": "I can't use Chrome without Gemini's Sidebar anymore",
-      "title_zh": "如果没有 Gemini 侧边栏，我将无法再使用 Chrome",
-      "title_bilingual": "如果没有 Gemini 侧边栏，我将无法再使用 Chrome / I can't use Chrome without Gemini's Sidebar anymore"
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "71927316d08e5c5dc2e3a4b12327e2fa0ce1bb29",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Android Police",
-      "title": "I can't use Chrome without Gemini's Sidebar anymore",
-      "url": "https://www.androidpolice.com/ask-gemini-chrome-sidebar",
-      "published_at": "2026-08-01T17:00:15Z",
-      "first_seen_at": "2026-08-02T03:17:20.466911Z",
-      "last_seen_at": "2026-08-02T13:27:45.190909Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "I can't use Chrome without Gemini's Sidebar anymore",
-      "title_en": "I can't use Chrome without Gemini's Sidebar anymore",
-      "title_zh": "如果没有 Gemini 侧边栏，我将无法再使用 Chrome",
-      "title_bilingual": "如果没有 Gemini 侧边栏，我将无法再使用 Chrome / I can't use Chrome without Gemini's Sidebar anymore"
-    }
-  ],
+  "items": [],
+  "items_ai": [],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
