@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-08-05T14:15:37.787270Z",
+  "generated_at": "2026-08-06T02:48:21.148484Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_ai_raw": 5,
-  "total_items_raw": 4686,
-  "total_items_all_mode": 4285,
+  "total_items": 0,
+  "total_items_ai_raw": 0,
+  "total_items_raw": 3726,
+  "total_items_all_mode": 3411,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 5,
-    "tier_0": 5,
+    "total": 0,
+    "tier_0": 0,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 4686,
-    "items_after_filter": 5,
-    "filter_pass_rate": "0.1%"
+    "items_before_filter": 3726,
+    "items_after_filter": 0,
+    "filter_pass_rate": "0.0%"
   },
-  "archive_total": 78589,
+  "archive_total": 80521,
   "site_count": 14,
-  "source_count": 2,
+  "source_count": 0,
   "site_stats": [
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
-      "count": 1,
-      "raw_count": 117
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 1,
-      "raw_count": 81
+      "count": 0,
+      "raw_count": 87
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 2516
+      "raw_count": 1616
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 39
+      "raw_count": 32
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 565
-    },
-    {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "count": 0,
-      "raw_count": 73
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 322
+      "raw_count": 526
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 910
+      "raw_count": 923
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 348
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 80
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 28
+      "raw_count": 25
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 84
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 30
+      "raw_count": 5
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 5
+      "raw_count": 0
     },
     {
       "site_id": "aibreakfast",
@@ -106,129 +106,7 @@
       "raw_count": 0
     }
   ],
-  "items": [
-    {
-      "id": "fb12b30c8cd8b797ca0de26888c631d56573ba1b",
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "source": "hackernews",
-      "title": "We finally learned to center a div, then browsers added sidebars",
-      "url": "https://news.ycombinator.com/item?id=49176055",
-      "published_at": "2026-08-05T02:23:09.761000Z",
-      "first_seen_at": "2026-08-05T02:45:38.782958Z",
-      "last_seen_at": "2026-08-05T14:15:37.787270Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "We finally learned to center a div, then browsers added sidebars",
-      "title_en": "We finally learned to center a div, then browsers added sidebars",
-      "title_zh": "我们终于学会了将 div 居中，然后浏览器添加了侧边栏",
-      "title_bilingual": "我们终于学会了将 div 居中，然后浏览器添加了侧边栏 / We finally learned to center a div, then browsers added sidebars"
-    },
-    {
-      "id": "f1cfbbb379678edefaec9a5146ec7ca4c1c1e42c",
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "source": "Hacker News · 24h最热",
-      "title": "We finally learned to center a div, then browsers added sidebars",
-      "url": "https://seg6.space/posts/center-div",
-      "published_at": "2026-08-04T22:24:00Z",
-      "first_seen_at": "2026-08-05T02:45:38.782958Z",
-      "last_seen_at": "2026-08-05T14:15:37.787270Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "We finally learned to center a div, then browsers added sidebars",
-      "title_en": "We finally learned to center a div, then browsers added sidebars",
-      "title_zh": "我们好不容易学会了如何将一个 div 对齐居中，结果浏览器又增加了侧边栏",
-      "title_bilingual": "我们好不容易学会了如何将一个 div 对齐居中，结果浏览器又增加了侧边栏 / We finally learned to center a div, then browsers added sidebars"
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "fb12b30c8cd8b797ca0de26888c631d56573ba1b",
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "source": "hackernews",
-      "title": "We finally learned to center a div, then browsers added sidebars",
-      "url": "https://news.ycombinator.com/item?id=49176055",
-      "published_at": "2026-08-05T02:23:09.761000Z",
-      "first_seen_at": "2026-08-05T02:45:38.782958Z",
-      "last_seen_at": "2026-08-05T14:15:37.787270Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "We finally learned to center a div, then browsers added sidebars",
-      "title_en": "We finally learned to center a div, then browsers added sidebars",
-      "title_zh": "我们终于学会了将 div 居中，然后浏览器添加了侧边栏",
-      "title_bilingual": "我们终于学会了将 div 居中，然后浏览器添加了侧边栏 / We finally learned to center a div, then browsers added sidebars"
-    },
-    {
-      "id": "f1cfbbb379678edefaec9a5146ec7ca4c1c1e42c",
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "source": "Hacker News · 24h最热",
-      "title": "We finally learned to center a div, then browsers added sidebars",
-      "url": "https://seg6.space/posts/center-div",
-      "published_at": "2026-08-04T22:24:00Z",
-      "first_seen_at": "2026-08-05T02:45:38.782958Z",
-      "last_seen_at": "2026-08-05T14:15:37.787270Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "We finally learned to center a div, then browsers added sidebars",
-      "title_en": "We finally learned to center a div, then browsers added sidebars",
-      "title_zh": "我们好不容易学会了如何将一个 div 对齐居中，结果浏览器又增加了侧边栏",
-      "title_bilingual": "我们好不容易学会了如何将一个 div 对齐居中，结果浏览器又增加了侧边栏 / We finally learned to center a div, then browsers added sidebars"
-    }
-  ],
+  "items": [],
+  "items_ai": [],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
