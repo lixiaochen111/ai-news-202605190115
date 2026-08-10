@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-09T12:56:32.248823Z",
+  "generated_at": "2026-08-10T02:01:52.725820Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 161,
-      "duration_ms": 2680,
+      "item_count": 158,
+      "duration_ms": 3840,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "AI Breakfast",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 169,
       "error": "403 Client Error: Forbidden for url: https://r.jina.ai/https://aibreakfast.beehiiv.com/"
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 27,
-      "duration_ms": 265,
+      "duration_ms": 300,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 541,
+      "duration_ms": 361,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 274,
+      "duration_ms": 842,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 359,
-      "duration_ms": 13512,
+      "item_count": 334,
+      "duration_ms": 17296,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1033,
+      "duration_ms": 918,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3021,
-      "duration_ms": 1496,
+      "item_count": 3019,
+      "duration_ms": 1292,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 50,
-      "duration_ms": 417,
+      "item_count": 71,
+      "duration_ms": 657,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 5130,
+      "duration_ms": 5031,
       "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='ai.hubtoday.app', port=443): Failed to resolve 'ai.hubtoday.app' ([Errno -2] Name or service not known)\"))"
     },
     {
@@ -86,23 +86,23 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1077,
+      "duration_ms": 1593,
       "error": null
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
-      "ok": true,
-      "item_count": 50,
-      "duration_ms": 850,
-      "error": null
+      "ok": false,
+      "item_count": 0,
+      "duration_ms": 20179,
+      "error": "HTTPSConnectionPool(host='aihot.virxact.com', port=443): Max retries exceeded with url: /feed/daily.xml (Caused by NameResolutionError(\"HTTPSConnection(host='aihot.virxact.com', port=443): Failed to resolve 'aihot.virxact.com' ([Errno -2] Name or service not known)\"))"
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 122,
-      "duration_ms": 1712,
+      "duration_ms": 1805,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 80,
-      "duration_ms": 350,
+      "duration_ms": 573,
       "error": null,
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -121,14 +121,15 @@
       "replaced_feed_count": 0
     }
   ],
-  "successful_sites": 12,
+  "successful_sites": 11,
   "failed_sites": [
     "aibreakfast",
-    "aihubtoday"
+    "aihubtoday",
+    "aihot"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 5040,
-  "items_before_topic_filter": 2854,
+  "fetched_raw_items": 4981,
+  "items_before_topic_filter": 2937,
   "items_in_24h": 0,
   "rss_opml": {
     "enabled": true,
@@ -149,7 +150,7 @@
         "effective_feed_url": "https://techcrunch.com/feed/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 79,
+        "duration_ms": 157,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -164,7 +165,7 @@
         "effective_feed_url": "https://www.theverge.com/rss/index.xml",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 99,
+        "duration_ms": 223,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -179,7 +180,7 @@
         "effective_feed_url": "https://www.wired.com/feed/rss",
         "ok": true,
         "item_count": 50,
-        "duration_ms": 172,
+        "duration_ms": 193,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -208,6 +209,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-08-09"
+    "generated_date_utc": "2026-08-10"
   }
 }
