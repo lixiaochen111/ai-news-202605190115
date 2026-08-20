@@ -1,85 +1,85 @@
 {
-  "generated_at": "2026-08-20T01:23:04.122416Z",
+  "generated_at": "2026-08-20T12:54:23.708820Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_ai_raw": 1,
-  "total_items_raw": 4113,
-  "total_items_all_mode": 3839,
+  "total_items": 0,
+  "total_items_ai_raw": 0,
+  "total_items_raw": 3394,
+  "total_items_all_mode": 3179,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 1,
-    "tier_0": 1,
+    "total": 0,
+    "tier_0": 0,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 4113,
-    "items_after_filter": 1,
+    "items_before_filter": 3394,
+    "items_after_filter": 0,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 77556,
+  "archive_total": 77503,
   "site_count": 14,
-  "source_count": 1,
+  "source_count": 0,
   "site_stats": [
+    {
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "count": 0,
+      "raw_count": 500
+    },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
-      "count": 1,
-      "raw_count": 2393
-    },
-    {
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 88
+      "raw_count": 1697
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 33
-    },
-    {
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "count": 0,
-      "raw_count": 521
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 0,
-      "raw_count": 916
-    },
-    {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 0,
-      "raw_count": 5
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 77
+      "raw_count": 27
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 65
+      "raw_count": 63
     },
     {
-      "site_id": "official_ai",
-      "site_name": "Official AI Updates",
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 7
+      "raw_count": 94
+    },
+    {
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 0,
+      "raw_count": 900
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 70
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 6
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 8
+      "raw_count": 31
+    },
+    {
+      "site_id": "official_ai",
+      "site_name": "Official AI Updates",
+      "count": 0,
+      "raw_count": 6
     },
     {
       "site_id": "aibreakfast",
@@ -106,69 +106,7 @@
       "raw_count": 0
     }
   ],
-  "items": [
-    {
-      "id": "9ce510344ead6dfd71e051f5490a574db95cf256",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "Product Hunt · 今日新产品",
-      "title": "Sider 6.0",
-      "url": "https://www.producthunt.com/products/chatgpt-sidebar-chrome-extension",
-      "published_at": null,
-      "first_seen_at": "2026-08-19T12:52:14.395399Z",
-      "last_seen_at": "2026-08-20T01:23:04.122416Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Sider 6.0",
-      "title_en": null,
-      "title_zh": null,
-      "title_bilingual": "Sider 6.0"
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "9ce510344ead6dfd71e051f5490a574db95cf256",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "Product Hunt · 今日新产品",
-      "title": "Sider 6.0",
-      "url": "https://www.producthunt.com/products/chatgpt-sidebar-chrome-extension",
-      "published_at": null,
-      "first_seen_at": "2026-08-19T12:52:14.395399Z",
-      "last_seen_at": "2026-08-20T01:23:04.122416Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Sider 6.0",
-      "title_en": null,
-      "title_zh": null,
-      "title_bilingual": "Sider 6.0"
-    }
-  ],
+  "items": [],
+  "items_ai": [],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
