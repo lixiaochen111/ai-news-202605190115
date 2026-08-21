@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-21T01:27:00.333783Z",
+  "generated_at": "2026-08-21T12:53:15.539816Z",
   "window_hours": 24,
   "total_items": 1,
   "total_items_ai_raw": 1,
-  "total_items_raw": 3532,
-  "total_items_all_mode": 3243,
+  "total_items_raw": 4590,
+  "total_items_all_mode": 4182,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
@@ -13,11 +13,11 @@
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 3532,
+    "items_before_filter": 4590,
     "items_after_filter": 1,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 77271,
+  "archive_total": 77429,
   "site_count": 14,
   "source_count": 1,
   "site_stats": [
@@ -31,61 +31,61 @@
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 1674
+      "raw_count": 2581
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 27
+      "raw_count": 38
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 472
+      "raw_count": 497
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 90
+      "raw_count": 80
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 894
+      "raw_count": 898
     },
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "count": 0,
-      "raw_count": 212
-    },
-    {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "count": 0,
-      "raw_count": 63
+      "raw_count": 306
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 79
+      "raw_count": 85
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 60
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 7
+      "raw_count": 8
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 7
+      "raw_count": 30
     },
     {
       "site_id": "aibreakfast",
@@ -116,7 +116,7 @@
       "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
       "published_at": "2026-08-20T23:29:34Z",
       "first_seen_at": "2026-08-21T01:27:00.333783Z",
-      "last_seen_at": "2026-08-21T01:27:00.333783Z",
+      "last_seen_at": "2026-08-21T12:53:15.539816Z",
       "_tier": 0,
       "_source_config": {
         "id": "sidebar",
@@ -148,7 +148,7 @@
       "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
       "published_at": "2026-08-20T23:29:34Z",
       "first_seen_at": "2026-08-21T01:27:00.333783Z",
-      "last_seen_at": "2026-08-21T01:27:00.333783Z",
+      "last_seen_at": "2026-08-21T12:53:15.539816Z",
       "_tier": 0,
       "_source_config": {
         "id": "sidebar",
