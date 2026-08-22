@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-08-21T12:53:15.539816Z",
+  "generated_at": "2026-08-22T01:22:32.855034Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_ai_raw": 1,
-  "total_items_raw": 4590,
-  "total_items_all_mode": 4182,
+  "total_items": 0,
+  "total_items_ai_raw": 0,
+  "total_items_raw": 4268,
+  "total_items_all_mode": 3914,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 1,
-    "tier_0": 1,
+    "total": 0,
+    "tier_0": 0,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 4590,
-    "items_after_filter": 1,
+    "items_before_filter": 4268,
+    "items_after_filter": 0,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 77429,
+  "archive_total": 77148,
   "site_count": 14,
-  "source_count": 1,
+  "source_count": 0,
   "site_stats": [
     {
-      "site_id": "official_ai",
-      "site_name": "Official AI Updates",
-      "count": 1,
-      "raw_count": 7
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "count": 0,
+      "raw_count": 87
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 2581
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 38
+      "raw_count": 2357
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 497
-    },
-    {
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "count": 0,
-      "raw_count": 80
+      "raw_count": 464
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 898
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 306
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 85
+      "raw_count": 871
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 60
+      "raw_count": 58
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 307
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 80
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 8
+      "raw_count": 7
+    },
+    {
+      "site_id": "official_ai",
+      "site_name": "Official AI Updates",
+      "count": 0,
+      "raw_count": 4
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 27
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 30
+      "raw_count": 6
     },
     {
       "site_id": "aibreakfast",
@@ -106,69 +106,7 @@
       "raw_count": 0
     }
   ],
-  "items": [
-    {
-      "id": "2c4fc71547d52e8375f29f8ac4898b98edf8d7c5",
-      "site_id": "official_ai",
-      "site_name": "Official AI Updates",
-      "source": "GitHub Changelog",
-      "title": "Pinning saved views to the repository issues sidebar is generally available and more",
-      "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-      "published_at": "2026-08-20T23:29:34Z",
-      "first_seen_at": "2026-08-21T01:27:00.333783Z",
-      "last_seen_at": "2026-08-21T12:53:15.539816Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Pinning saved views to the repository issues sidebar is generally available and more",
-      "title_en": "Pinning saved views to the repository issues sidebar is generally available and more",
-      "title_zh": "将保存的视图固定到存储库问题侧边栏通常是可用的等等",
-      "title_bilingual": "将保存的视图固定到存储库问题侧边栏通常是可用的等等 / Pinning saved views to the repository issues sidebar is generally available and more"
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "2c4fc71547d52e8375f29f8ac4898b98edf8d7c5",
-      "site_id": "official_ai",
-      "site_name": "Official AI Updates",
-      "source": "GitHub Changelog",
-      "title": "Pinning saved views to the repository issues sidebar is generally available and more",
-      "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-      "published_at": "2026-08-20T23:29:34Z",
-      "first_seen_at": "2026-08-21T01:27:00.333783Z",
-      "last_seen_at": "2026-08-21T12:53:15.539816Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Pinning saved views to the repository issues sidebar is generally available and more",
-      "title_en": "Pinning saved views to the repository issues sidebar is generally available and more",
-      "title_zh": "将保存的视图固定到存储库问题侧边栏通常是可用的等等",
-      "title_bilingual": "将保存的视图固定到存储库问题侧边栏通常是可用的等等 / Pinning saved views to the repository issues sidebar is generally available and more"
-    }
-  ],
+  "items": [],
+  "items_ai": [],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
