@@ -1,67 +1,67 @@
 {
-  "generated_at": "2026-09-10T03:48:13.312009Z",
+  "generated_at": "2026-09-10T16:03:25.749528Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_ai_raw": 0,
-  "total_items_raw": 4507,
-  "total_items_all_mode": 4090,
+  "total_items": 1,
+  "total_items_ai_raw": 1,
+  "total_items_raw": 4648,
+  "total_items_all_mode": 4234,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 0,
-    "tier_0": 0,
+    "total": 1,
+    "tier_0": 1,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 4507,
-    "items_after_filter": 0,
+    "items_before_filter": 4648,
+    "items_after_filter": 1,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 76362,
+  "archive_total": 76269,
   "site_count": 14,
-  "source_count": 0,
+  "source_count": 1,
   "site_stats": [
     {
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "count": 0,
-      "raw_count": 2482
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 38
-    },
-    {
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "count": 0,
-      "raw_count": 415
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 0,
-      "raw_count": 956
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 374
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
+      "count": 1,
+      "raw_count": 25
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 41
+      "raw_count": 63
     },
     {
-      "site_id": "zeli",
-      "site_name": "Zeli",
+      "site_id": "iris",
+      "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 81
+      "raw_count": 403
+    },
+    {
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "count": 0,
+      "raw_count": 2575
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 40
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 80
+    },
+    {
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 0,
+      "raw_count": 982
     },
     {
       "site_id": "aihot",
@@ -70,22 +70,22 @@
       "raw_count": 22
     },
     {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
       "count": 0,
-      "raw_count": 83
+      "raw_count": 372
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 11
+      "raw_count": 9
     },
     {
-      "site_id": "followbuilders",
-      "site_name": "Follow Builders",
+      "site_id": "zeli",
+      "site_name": "Zeli",
       "count": 0,
-      "raw_count": 4
+      "raw_count": 77
     },
     {
       "site_id": "aibreakfast",
@@ -106,7 +106,69 @@
       "raw_count": 0
     }
   ],
-  "items": [],
-  "items_ai": [],
+  "items": [
+    {
+      "id": "bc5681d2e4e3b9c860433a12433cf4601f981926",
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
+      "source": "Follow Builders · X · Peter Steinberger",
+      "title": "Dashboards/Mini-Apps was something I pushed two months ago and now it replaced lots of custom tooling we built around OC. Everything’s a sidebar entry, a dashboard or a plugin now for our team server. https://t.co/syk...",
+      "url": "https://x.com/steipete/status/2097880507753382201",
+      "published_at": "2026-09-10T02:51:04Z",
+      "first_seen_at": "2026-09-10T16:03:25.749528Z",
+      "last_seen_at": "2026-09-10T16:03:25.749528Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Dashboards/Mini-Apps was something I pushed two months ago and now it replaced lots of custom tooling we built around OC. Everything’s a sidebar entry, a dashboard or a plugin now for our team server. https://t.co/syk...",
+      "title_en": "Dashboards/Mini-Apps was something I pushed two months ago and now it replaced lots of custom tooling we built around OC. Everything’s a sidebar entry, a dashboard or a plugin now for our team server. https://t.co/syk...",
+      "title_zh": null,
+      "title_bilingual": "Dashboards/Mini-Apps was something I pushed two months ago and now it replaced lots of custom tooling we built around OC. Everything’s a sidebar entry, a dashboard or a plugin now for our team server. https://t.co/syk..."
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "bc5681d2e4e3b9c860433a12433cf4601f981926",
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
+      "source": "Follow Builders · X · Peter Steinberger",
+      "title": "Dashboards/Mini-Apps was something I pushed two months ago and now it replaced lots of custom tooling we built around OC. Everything’s a sidebar entry, a dashboard or a plugin now for our team server. https://t.co/syk...",
+      "url": "https://x.com/steipete/status/2097880507753382201",
+      "published_at": "2026-09-10T02:51:04Z",
+      "first_seen_at": "2026-09-10T16:03:25.749528Z",
+      "last_seen_at": "2026-09-10T16:03:25.749528Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Dashboards/Mini-Apps was something I pushed two months ago and now it replaced lots of custom tooling we built around OC. Everything’s a sidebar entry, a dashboard or a plugin now for our team server. https://t.co/syk...",
+      "title_en": "Dashboards/Mini-Apps was something I pushed two months ago and now it replaced lots of custom tooling we built around OC. Everything’s a sidebar entry, a dashboard or a plugin now for our team server. https://t.co/syk...",
+      "title_zh": null,
+      "title_bilingual": "Dashboards/Mini-Apps was something I pushed two months ago and now it replaced lots of custom tooling we built around OC. Everything’s a sidebar entry, a dashboard or a plugin now for our team server. https://t.co/syk..."
+    }
+  ],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
