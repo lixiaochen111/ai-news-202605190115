@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-09-18T03:52:44.352026Z",
+  "generated_at": "2026-09-18T16:04:07.115682Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_ai_raw": 0,
-  "total_items_raw": 4381,
-  "total_items_all_mode": 3991,
+  "total_items": 2,
+  "total_items_ai_raw": 3,
+  "total_items_raw": 4524,
+  "total_items_all_mode": 4118,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 0,
-    "tier_0": 0,
+    "total": 3,
+    "tier_0": 3,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 4381,
-    "items_after_filter": 0,
-    "filter_pass_rate": "0.0%"
+    "items_before_filter": 4524,
+    "items_after_filter": 3,
+    "filter_pass_rate": "0.1%"
   },
-  "archive_total": 77645,
+  "archive_total": 77739,
   "site_count": 14,
-  "source_count": 0,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
-      "count": 0,
-      "raw_count": 74
+      "count": 1,
+      "raw_count": 113
     },
     {
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "count": 0,
-      "raw_count": 2484
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 53
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 1,
+      "raw_count": 932
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 384
+      "raw_count": 406
     },
     {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
+      "site_id": "tophub",
+      "site_name": "TopHub",
       "count": 0,
-      "raw_count": 912
+      "raw_count": 2549
     },
     {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
+      "site_id": "aibase",
+      "site_name": "AIbase",
       "count": 0,
-      "raw_count": 15
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 75
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 311
+      "raw_count": 35
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 66
+      "raw_count": 63
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 296
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 21
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 6
+      "raw_count": 7
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 80
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 1
+      "raw_count": 22
     },
     {
       "site_id": "aibreakfast",
@@ -106,7 +106,129 @@
       "raw_count": 0
     }
   ],
-  "items": [],
-  "items_ai": [],
+  "items": [
+    {
+      "id": "bdc03b3c016cac035b56dc9af4ecc76584eb1bd3",
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "source": "producthunt",
+      "title": "Sider Omni Sidebar",
+      "url": "https://www.producthunt.com/products/sider-omni",
+      "published_at": "2026-09-18T16:04:39.741000Z",
+      "first_seen_at": "2026-09-18T16:04:07.115682Z",
+      "last_seen_at": "2026-09-18T16:04:07.115682Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Sider Omni Sidebar",
+      "title_en": "Sider Omni Sidebar",
+      "title_zh": "页面全方位侧边栏",
+      "title_bilingual": "页面全方位侧边栏 / Sider Omni Sidebar"
+    },
+    {
+      "id": "ca27e2a327f7080c82be4e2e1d892bd634404a6d",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.producthunt.com",
+      "title": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
+      "url": "https://www.producthunt.com/r/GXEZU22QAYGGP5",
+      "published_at": "2026-09-18T09:27:19.754000Z",
+      "first_seen_at": "2026-09-18T16:04:07.115682Z",
+      "last_seen_at": "2026-09-18T16:04:07.115682Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
+      "title_en": null,
+      "title_zh": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
+      "title_bilingual": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏"
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "bdc03b3c016cac035b56dc9af4ecc76584eb1bd3",
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "source": "producthunt",
+      "title": "Sider Omni Sidebar",
+      "url": "https://www.producthunt.com/products/sider-omni",
+      "published_at": "2026-09-18T16:04:39.741000Z",
+      "first_seen_at": "2026-09-18T16:04:07.115682Z",
+      "last_seen_at": "2026-09-18T16:04:07.115682Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Sider Omni Sidebar",
+      "title_en": "Sider Omni Sidebar",
+      "title_zh": "页面全方位侧边栏",
+      "title_bilingual": "页面全方位侧边栏 / Sider Omni Sidebar"
+    },
+    {
+      "id": "ca27e2a327f7080c82be4e2e1d892bd634404a6d",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.producthunt.com",
+      "title": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
+      "url": "https://www.producthunt.com/r/GXEZU22QAYGGP5",
+      "published_at": "2026-09-18T09:27:19.754000Z",
+      "first_seen_at": "2026-09-18T16:04:07.115682Z",
+      "last_seen_at": "2026-09-18T16:04:07.115682Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
+      "title_en": null,
+      "title_zh": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
+      "title_bilingual": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏"
+    }
+  ],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
