@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-19T03:49:43.142474Z",
+  "generated_at": "2026-09-19T15:36:34.713338Z",
   "window_hours": 24,
   "total_items": 2,
   "total_items_ai_raw": 3,
-  "total_items_raw": 4276,
-  "total_items_all_mode": 3881,
+  "total_items_raw": 4230,
+  "total_items_all_mode": 3891,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
@@ -13,79 +13,79 @@
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 4276,
+    "items_before_filter": 4230,
     "items_after_filter": 3,
     "filter_pass_rate": "0.1%"
   },
-  "archive_total": 78127,
+  "archive_total": 78241,
   "site_count": 14,
   "source_count": 2,
   "site_stats": [
     {
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
+      "count": 1,
+      "raw_count": 27
+    },
+    {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 1,
-      "raw_count": 84
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 1,
-      "raw_count": 896
+      "raw_count": 109
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 2410
+      "raw_count": 2392
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 373
-    },
-    {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 0,
-      "raw_count": 17
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 326
+      "raw_count": 396
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 63
+      "raw_count": 55
+    },
+    {
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 0,
+      "raw_count": 883
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 286
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 67
+      "raw_count": 63
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 11
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 8
+      "raw_count": 5
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 30
-    },
-    {
-      "site_id": "followbuilders",
-      "site_name": "Follow Builders",
-      "count": 0,
-      "raw_count": 2
+      "raw_count": 3
     },
     {
       "site_id": "aibreakfast",
@@ -108,6 +108,36 @@
   ],
   "items": [
     {
+      "id": "ba443ffc3cda94e38411b052762696451b4e17df",
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
+      "source": "Follow Builders · X · Peter Steinberger",
+      "title": "Love having @vhbrzezowski hijacking my sessions and desloping them before the PR lands. Also hot tip: Open the home sidebar and ask your claw to reorganize your sessions to keep your sessions organized. https://t.co/B...",
+      "url": "https://x.com/steipete/status/2101139037801283997",
+      "published_at": "2026-09-19T02:39:18Z",
+      "first_seen_at": "2026-09-19T15:36:34.713338Z",
+      "last_seen_at": "2026-09-19T15:36:34.713338Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Love having @vhbrzezowski hijacking my sessions and desloping them before the PR lands. Also hot tip: Open the home sidebar and ask your claw to reorganize your sessions to keep your sessions organized. https://t.co/B...",
+      "title_en": "Love having @vhbrzezowski hijacking my sessions and desloping them before the PR lands. Also hot tip: Open the home sidebar and ask your claw to reorganize your sessions to keep your sessions organized. https://t.co/B...",
+      "title_zh": null,
+      "title_bilingual": "Love having @vhbrzezowski hijacking my sessions and desloping them before the PR lands. Also hot tip: Open the home sidebar and ask your claw to reorganize your sessions to keep your sessions organized. https://t.co/B..."
+    },
+    {
       "id": "bdc03b3c016cac035b56dc9af4ecc76584eb1bd3",
       "site_id": "newsnow",
       "site_name": "NewsNow",
@@ -136,40 +166,40 @@
       "title_en": "Sider Omni Sidebar",
       "title_zh": "页面全方位侧边栏",
       "title_bilingual": "页面全方位侧边栏 / Sider Omni Sidebar"
-    },
-    {
-      "id": "ca27e2a327f7080c82be4e2e1d892bd634404a6d",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "www.producthunt.com",
-      "title": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
-      "url": "https://www.producthunt.com/r/GXEZU22QAYGGP5",
-      "published_at": "2026-09-18T09:27:19.754000Z",
-      "first_seen_at": "2026-09-18T16:04:07.115682Z",
-      "last_seen_at": "2026-09-19T03:49:43.142474Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
-      "title_en": null,
-      "title_zh": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
-      "title_bilingual": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏"
     }
   ],
   "items_ai": [
     {
+      "id": "ba443ffc3cda94e38411b052762696451b4e17df",
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
+      "source": "Follow Builders · X · Peter Steinberger",
+      "title": "Love having @vhbrzezowski hijacking my sessions and desloping them before the PR lands. Also hot tip: Open the home sidebar and ask your claw to reorganize your sessions to keep your sessions organized. https://t.co/B...",
+      "url": "https://x.com/steipete/status/2101139037801283997",
+      "published_at": "2026-09-19T02:39:18Z",
+      "first_seen_at": "2026-09-19T15:36:34.713338Z",
+      "last_seen_at": "2026-09-19T15:36:34.713338Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Love having @vhbrzezowski hijacking my sessions and desloping them before the PR lands. Also hot tip: Open the home sidebar and ask your claw to reorganize your sessions to keep your sessions organized. https://t.co/B...",
+      "title_en": "Love having @vhbrzezowski hijacking my sessions and desloping them before the PR lands. Also hot tip: Open the home sidebar and ask your claw to reorganize your sessions to keep your sessions organized. https://t.co/B...",
+      "title_zh": null,
+      "title_bilingual": "Love having @vhbrzezowski hijacking my sessions and desloping them before the PR lands. Also hot tip: Open the home sidebar and ask your claw to reorganize your sessions to keep your sessions organized. https://t.co/B..."
+    },
+    {
       "id": "bdc03b3c016cac035b56dc9af4ecc76584eb1bd3",
       "site_id": "newsnow",
       "site_name": "NewsNow",
@@ -198,36 +228,6 @@
       "title_en": "Sider Omni Sidebar",
       "title_zh": "页面全方位侧边栏",
       "title_bilingual": "页面全方位侧边栏 / Sider Omni Sidebar"
-    },
-    {
-      "id": "ca27e2a327f7080c82be4e2e1d892bd634404a6d",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "www.producthunt.com",
-      "title": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
-      "url": "https://www.producthunt.com/r/GXEZU22QAYGGP5",
-      "published_at": "2026-09-18T09:27:19.754000Z",
-      "first_seen_at": "2026-09-18T16:04:07.115682Z",
-      "last_seen_at": "2026-09-19T03:49:43.142474Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
-      "title_en": null,
-      "title_zh": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏",
-      "title_bilingual": "Sider Omni Sidebar - 为每款 Mac 应用添加一个“Agent”侧边栏"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json"
