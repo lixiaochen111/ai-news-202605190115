@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-10-09T18:08:20.950406Z",
+  "generated_at": "2026-10-10T05:01:25.634251Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-10-09",
-  "count_today": 4,
+  "count_today": 5,
   "updates_today": [
     {
       "date": "2026-10-09",
       "title": "金九银十求职季，想做出让人眼前一亮的简历？作者这份实操教程教你借助豆包工作，把零散经历转化为可交互的3D网页简历。文中有全套可直接复用的提示词，从梳理求职经历、生成代码、调试bug，到打包成一键打开的HTML文件，帮你打造差异化创意简历。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "现在人们谈论智能体时，会用到五个词：上下文工程、循环工程、Jev 工程、harness工程、评估工程。这篇文章带你详细拆解下它们到底是什么关系。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
@@ -28,11 +33,16 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 19,
+  "count_7d": 20,
   "updates_7d": [
     {
       "date": "2026-10-09",
       "title": "金九银十求职季，想做出让人眼前一亮的简历？作者这份实操教程教你借助豆包工作，把零散经历转化为可交互的3D网页简历。文中有全套可直接复用的提示词，从梳理求职经历、生成代码、调试bug，到打包成一键打开的HTML文件，帮你打造差异化创意简历。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "现在人们谈论智能体时，会用到五个词：上下文工程、循环工程、Jev 工程、harness工程、评估工程。这篇文章带你详细拆解下它们到底是什么关系。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
