@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-29T04:57:33.927150Z",
+  "generated_at": "2026-10-29T18:12:52.184531Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 230,
-      "duration_ms": 3274,
+      "item_count": 234,
+      "duration_ms": 3520,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 390,
+      "duration_ms": 326,
       "error": null
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 29,
-      "duration_ms": 298,
+      "item_count": 40,
+      "duration_ms": 129,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 222,
+      "duration_ms": 451,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 406,
+      "duration_ms": 967,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 363,
-      "duration_ms": 36196,
+      "item_count": 315,
+      "duration_ms": 37817,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 623,
+      "duration_ms": 842,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3043,
-      "duration_ms": 995,
+      "item_count": 3024,
+      "duration_ms": 2026,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 71,
-      "duration_ms": 762,
+      "item_count": 66,
+      "duration_ms": 1029,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 5550,
+      "duration_ms": 5209,
       "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1434,
+      "duration_ms": 1344,
       "error": null
     },
     {
@@ -94,15 +94,15 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 51,
-      "duration_ms": 852,
+      "duration_ms": 2112,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 123,
-      "duration_ms": 1313,
+      "item_count": 121,
+      "duration_ms": 1523,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 80,
-      "duration_ms": 370,
+      "duration_ms": 305,
       "error": null,
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -126,8 +126,8 @@
     "aihubtoday"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 5169,
-  "items_before_topic_filter": 3585,
+  "fetched_raw_items": 5110,
+  "items_before_topic_filter": 3565,
   "items_in_24h": 0,
   "rss_opml": {
     "enabled": true,
@@ -148,7 +148,7 @@
         "effective_feed_url": "https://techcrunch.com/feed/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 82,
+        "duration_ms": 48,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -163,7 +163,7 @@
         "effective_feed_url": "https://www.theverge.com/rss/index.xml",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 150,
+        "duration_ms": 176,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -178,7 +178,7 @@
         "effective_feed_url": "https://www.wired.com/feed/rss",
         "ok": true,
         "item_count": 50,
-        "duration_ms": 138,
+        "duration_ms": 81,
         "error": null,
         "skipped": false,
         "skip_reason": null,
