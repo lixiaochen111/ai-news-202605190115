@@ -1,97 +1,97 @@
 {
-  "generated_at": "2026-11-20T06:23:41.842328Z",
+  "generated_at": "2026-11-20T19:46:14.955320Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_ai_raw": 1,
-  "total_items_raw": 4099,
-  "total_items_all_mode": 3681,
+  "total_items": 2,
+  "total_items_ai_raw": 2,
+  "total_items_raw": 4236,
+  "total_items_all_mode": 3798,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 1,
-    "tier_0": 1,
+    "total": 2,
+    "tier_0": 2,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 4099,
-    "items_after_filter": 1,
+    "items_before_filter": 4236,
+    "items_after_filter": 2,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 73455,
+  "archive_total": 74207,
   "site_count": 14,
-  "source_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
-      "count": 1,
-      "raw_count": 314
+      "count": 2,
+      "raw_count": 295
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 82
+      "raw_count": 113
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 2245
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 44
+      "raw_count": 2420
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 400
+      "raw_count": 386
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 848
+      "raw_count": 825
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 63
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 75
+      "raw_count": 68
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 20
+      "raw_count": 12
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 31
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 61
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 8
-    },
-    {
-      "site_id": "aibreakfast",
-      "site_name": "AI Breakfast",
-      "count": 0,
-      "raw_count": 0
+      "raw_count": 7
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 0
+      "raw_count": 17
+    },
+    {
+      "site_id": "aibreakfast",
+      "site_name": "AI Breakfast",
+      "count": 0,
+      "raw_count": 1
     },
     {
       "site_id": "bestblogs",
@@ -108,6 +108,36 @@
   ],
   "items": [
     {
+      "id": "05c125b339c1c8e0d209ed1a0730f61a368ff4ea",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Next Web",
+      "title": "Meta brings Muse to a Chrome sidebar used by 200,000 people",
+      "url": "https://thenextweb.com/news/meta-muse-chrome-extension-charm-300-australia-instagram",
+      "published_at": "2026-11-20T16:24:37Z",
+      "first_seen_at": "2026-11-20T19:46:14.955320Z",
+      "last_seen_at": "2026-11-20T19:46:14.955320Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Meta brings Muse to a Chrome sidebar used by 200,000 people",
+      "title_en": "Meta brings Muse to a Chrome sidebar used by 200,000 people",
+      "title_zh": "Meta 将 Muse 引入 Chrome 侧边栏，已有 20 万人使用",
+      "title_bilingual": "Meta 将 Muse 引入 Chrome 侧边栏，已有 20 万人使用 / Meta brings Muse to a Chrome sidebar used by 200,000 people"
+    },
+    {
       "id": "0597658f3855f932589fbf26f4b622ecfd48894c",
       "site_id": "techurls",
       "site_name": "TechURLs",
@@ -116,7 +146,7 @@
       "url": "https://www.androidpolice.com/the-google-homepage-gets-its-biggest-change-in-years",
       "published_at": "2026-11-20T00:49:52Z",
       "first_seen_at": "2026-11-20T06:23:41.842328Z",
-      "last_seen_at": "2026-11-20T06:23:41.842328Z",
+      "last_seen_at": "2026-11-20T19:46:14.955320Z",
       "_tier": 0,
       "_source_config": {
         "id": "sidebar",
@@ -140,6 +170,36 @@
   ],
   "items_ai": [
     {
+      "id": "05c125b339c1c8e0d209ed1a0730f61a368ff4ea",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Next Web",
+      "title": "Meta brings Muse to a Chrome sidebar used by 200,000 people",
+      "url": "https://thenextweb.com/news/meta-muse-chrome-extension-charm-300-australia-instagram",
+      "published_at": "2026-11-20T16:24:37Z",
+      "first_seen_at": "2026-11-20T19:46:14.955320Z",
+      "last_seen_at": "2026-11-20T19:46:14.955320Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Meta brings Muse to a Chrome sidebar used by 200,000 people",
+      "title_en": "Meta brings Muse to a Chrome sidebar used by 200,000 people",
+      "title_zh": "Meta 将 Muse 引入 Chrome 侧边栏，已有 20 万人使用",
+      "title_bilingual": "Meta 将 Muse 引入 Chrome 侧边栏，已有 20 万人使用 / Meta brings Muse to a Chrome sidebar used by 200,000 people"
+    },
+    {
       "id": "0597658f3855f932589fbf26f4b622ecfd48894c",
       "site_id": "techurls",
       "site_name": "TechURLs",
@@ -148,7 +208,7 @@
       "url": "https://www.androidpolice.com/the-google-homepage-gets-its-biggest-change-in-years",
       "published_at": "2026-11-20T00:49:52Z",
       "first_seen_at": "2026-11-20T06:23:41.842328Z",
-      "last_seen_at": "2026-11-20T06:23:41.842328Z",
+      "last_seen_at": "2026-11-20T19:46:14.955320Z",
       "_tier": 0,
       "_source_config": {
         "id": "sidebar",
