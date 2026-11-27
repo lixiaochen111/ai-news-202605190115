@@ -1,67 +1,49 @@
 {
-  "generated_at": "2026-11-27T07:27:28.742972Z",
+  "generated_at": "2026-11-27T20:52:00.309555Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_ai_raw": 2,
-  "total_items_raw": 3316,
-  "total_items_all_mode": 3014,
+  "total_items": 0,
+  "total_items_ai_raw": 0,
+  "total_items_raw": 3300,
+  "total_items_all_mode": 2980,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 2,
-    "tier_0": 2,
+    "total": 0,
+    "tier_0": 0,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 3316,
-    "items_after_filter": 2,
-    "filter_pass_rate": "0.1%"
+    "items_before_filter": 3300,
+    "items_after_filter": 0,
+    "filter_pass_rate": "0.0%"
   },
-  "archive_total": 71807,
+  "archive_total": 71796,
   "site_count": 14,
-  "source_count": 2,
+  "source_count": 0,
   "site_stats": [
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 1,
-      "raw_count": 59
-    },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
-      "count": 1,
-      "raw_count": 75
+      "count": 0,
+      "raw_count": 107
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 2161
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 38
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 0,
-      "raw_count": 721
+      "raw_count": 2171
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 40
+      "raw_count": 54
     },
     {
-      "site_id": "followbuilders",
-      "site_name": "Follow Builders",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 17
+      "raw_count": 681
     },
     {
       "site_id": "techurls",
@@ -70,10 +52,28 @@
       "raw_count": 200
     },
     {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 53
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 23
+    },
+    {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
       "raw_count": 4
+    },
+    {
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
+      "count": 0,
+      "raw_count": 6
     },
     {
       "site_id": "official_ai",
@@ -106,129 +106,7 @@
       "raw_count": 0
     }
   ],
-  "items": [
-    {
-      "id": "dd98fb0fbd1c5477af38a9ef9d7b5871914cce34",
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "source": "Hacker News · 24h最热",
-      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "url": "https://github.com/rxliuli/sim-drop",
-      "published_at": "2026-11-26T16:51:38Z",
-      "first_seen_at": "2026-11-26T21:07:24.602498Z",
-      "last_seen_at": "2026-11-27T07:27:28.742972Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "title_en": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "title_zh": "Show HN: SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器",
-      "title_bilingual": "Show HN: SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器 / Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar"
-    },
-    {
-      "id": "858b3ace86e7db35fda69533dc088e914786e45a",
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "source": "hackernews",
-      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "url": "https://news.ycombinator.com/item?id=50657070",
-      "published_at": "2026-11-26T16:51:38Z",
-      "first_seen_at": "2026-11-26T21:07:24.602498Z",
-      "last_seen_at": "2026-11-26T21:07:24.602498Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "title_en": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "title_zh": "显示 HN：SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器",
-      "title_bilingual": "显示 HN：SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器 / Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar"
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "dd98fb0fbd1c5477af38a9ef9d7b5871914cce34",
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "source": "Hacker News · 24h最热",
-      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "url": "https://github.com/rxliuli/sim-drop",
-      "published_at": "2026-11-26T16:51:38Z",
-      "first_seen_at": "2026-11-26T21:07:24.602498Z",
-      "last_seen_at": "2026-11-27T07:27:28.742972Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "title_en": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "title_zh": "Show HN: SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器",
-      "title_bilingual": "Show HN: SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器 / Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar"
-    },
-    {
-      "id": "858b3ace86e7db35fda69533dc088e914786e45a",
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "source": "hackernews",
-      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "url": "https://news.ycombinator.com/item?id=50657070",
-      "published_at": "2026-11-26T16:51:38Z",
-      "first_seen_at": "2026-11-26T21:07:24.602498Z",
-      "last_seen_at": "2026-11-26T21:07:24.602498Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "title_en": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "title_zh": "显示 HN：SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器",
-      "title_bilingual": "显示 HN：SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器 / Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar"
-    }
-  ],
+  "items": [],
+  "items_ai": [],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
