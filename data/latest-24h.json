@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T21:07:24.602498Z",
+  "generated_at": "2026-11-27T07:27:28.742972Z",
   "window_hours": 24,
   "total_items": 2,
   "total_items_ai_raw": 2,
-  "total_items_raw": 3497,
-  "total_items_all_mode": 3201,
+  "total_items_raw": 3316,
+  "total_items_all_mode": 3014,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
@@ -13,11 +13,11 @@
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 3497,
+    "items_before_filter": 3316,
     "items_after_filter": 2,
     "filter_pass_rate": "0.1%"
   },
-  "archive_total": 72666,
+  "archive_total": 71807,
   "site_count": 14,
   "source_count": 2,
   "site_stats": [
@@ -25,61 +25,61 @@
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 1,
-      "raw_count": 54
+      "raw_count": 59
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 1,
-      "raw_count": 112
+      "raw_count": 75
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 2231
-    },
-    {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "count": 0,
-      "raw_count": 46
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 0,
-      "raw_count": 776
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 231
+      "raw_count": 2161
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 23
+      "raw_count": 38
     },
     {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 8
+      "raw_count": 721
     },
     {
-      "site_id": "official_ai",
-      "site_name": "Official AI Updates",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 4
+      "raw_count": 40
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 12
+      "raw_count": 17
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 200
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 4
+    },
+    {
+      "site_id": "official_ai",
+      "site_name": "Official AI Updates",
+      "count": 0,
+      "raw_count": 1
     },
     {
       "site_id": "aibreakfast",
@@ -116,7 +116,7 @@
       "url": "https://github.com/rxliuli/sim-drop",
       "published_at": "2026-11-26T16:51:38Z",
       "first_seen_at": "2026-11-26T21:07:24.602498Z",
-      "last_seen_at": "2026-11-26T21:07:24.602498Z",
+      "last_seen_at": "2026-11-27T07:27:28.742972Z",
       "_tier": 0,
       "_source_config": {
         "id": "sidebar",
@@ -178,7 +178,7 @@
       "url": "https://github.com/rxliuli/sim-drop",
       "published_at": "2026-11-26T16:51:38Z",
       "first_seen_at": "2026-11-26T21:07:24.602498Z",
-      "last_seen_at": "2026-11-26T21:07:24.602498Z",
+      "last_seen_at": "2026-11-27T07:27:28.742972Z",
       "_tier": 0,
       "_source_config": {
         "id": "sidebar",
